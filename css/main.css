@@ -1,0 +1,20 @@
+@font-face {
+  font-family: "Garlic";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/Garlic-Butter.woff2") format("woff2"),
+    /* Если браузер не поддерживает woff2, загрузит woff */
+      url("/fonts/Garlic-Butter.woff") format("woff");
+}
+
+body {
+  background-color: #000;
+}
+
+.navbar-brand-line {
+  margin-left: 10px;
+
+  font-size: 35px;
+  font-family: "Garlic";
+  color: #FFFFFF;
+}
